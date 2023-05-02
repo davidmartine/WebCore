@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TipoAplicacion>
+@{
+    ViewData["Title"] = "Información Tipo Aplicacion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="container p-3">
+    <div class="row p-4">
+        <div class="col-6">
+            <h2 class="text-primary">Listar Tipo Aplicacion</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="TipoAplicacion" asp-action="Crear" class=" btn btn-primary">
+                <i class="fa-solid fa-plus"></i>
+                Nueva Tipo Aplicacion
+            </a>
+        </div>
+    </div>
+    <br />
+    @if(Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width: 100%">
+            <thead>
+                <tr>
+                    <th>
+                        Codigo
+                    </th>
+                    <th>
+                        Nombre Tipo Aplicación
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var listaTipoAplicacion in Model)
+                {
+                    <tr>
+                        <th width="50%">
+                            @listaTipoAplicacion.Id
+                        </th>
+                        <th width="50%">
+                            @listaTipoAplicacion.NombreTipoAplicacion
+                        </th>
+                        <th class="text-center">
+                            <div class="w-75 btn-group">
+                                <a asp-controller="TipoAplicacion" asp-action="Editar" asp-route-Id="@listaTipoAplicacion.Id" class="btn btn-primary mx-2">
+                                    <i class="fa-solid fa-pen-to-square"></i>
+                                    @*Editar*@
+                                </a>
+                                <a asp-controller="TipoAplicacion" asp-action="Eliminar" asp-route-Id="@listaTipoAplicacion.Id" class="btn btn-danger mx-2">
+                                    <i class="fa-solid fa-trash"></i>
+                                    @*Eliminar*@
+                                </a>
+                            </div>
+                        </th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No Hay Datos Para Mostrar</p>
+    }
+
+</div>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

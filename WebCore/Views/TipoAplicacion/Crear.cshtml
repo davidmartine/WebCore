@@ -1,0 +1,38 @@
+﻿@model TipoAplicacion
+
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="post" asp-action="Crear">
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger">
+
+        </div>
+        <div class="form-group row">
+            <h2 class="text-primary pl-3">Nueva Tipo Aplicación</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <label asp-for="NombreTipoAplicacion" class="form-label">Nombre Tipo Aplicación</label>
+                    <input asp-for="NombreTipoAplicacion" class="form-control" />
+                    <span asp-validation-for="NombreTipoAplicacion" class="text-danger"/>
+                </div>
+            </div>
+            <br />
+            <div class="d-grid gap-2 d-md-block">
+                <button type="submit" class="btn btn-primary">Crear</button>
+                <a asp-controller="TipoAplicacion" asp-action="Index" class="btn btn-success">Cancelar</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
