@@ -28,6 +28,17 @@ namespace WebCore.Controllers
             return View(homeVM);
         }
 
+        public IActionResult Detalle(int Id)
+        {
+            DetalleVM detalleVM = new DetalleVM()
+            {
+                Producto = dbContext.Productos.Include(x => x.Categoria).Include(z => z.TipoAplcacion)
+                           .Where(x => x.Id == Id).FirstOrDefault(),
+                ExisteEnCarro = false
+            };
+            return View(detalleVM);
+        }
+
         public IActionResult Privacy()
         {
             return View();
