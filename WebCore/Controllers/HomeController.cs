@@ -1,21 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using WebCore.Datos;
 using WebCore.Models;
+using WebCore.Models.ViewModels;
 
 namespace WebCore.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext dbContext;
+        public HomeController(ILogger<HomeController> logger,ApplicationDbContext context)
         {
+            dbContext= context;
             _logger = logger;
         }
 
         public IActionResult Index()
         {
-            return View();
+            HomeVM homeVM = new HomeVM()
+            {
+                Productos = dbContext.Productos.Include(x => x.Categoria).Include(z => z.TipoAplcacion),
+                Categorias = dbContext.Categorias
+            };
+
+            return View(homeVM);
         }
 
         public IActionResult Privacy()

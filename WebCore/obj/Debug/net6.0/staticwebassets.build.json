@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SYmyK6n2amMceLBSSwYFD4QgEDVNiZ0bybOdb9osNWs=",
+  "Hash": "XXnmXDeaTdRBmGH2CQ5oMhrX4bEuU06Bt5ZIYvkVtqc=",
   "Source": "WebCore",
   "BasePath": "_content/WebCore",
   "Mode": "Default",
@@ -35938,12 +35938,12 @@
       "OriginalItemSpec": "wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\903fe4b3-3d5f-4540-b66c-74ecca6cb07d.jpg",
+      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg",
       "SourceId": "WebCore",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\",
       "BasePath": "_content/WebCore",
-      "RelativePath": "img/producto/903fe4b3-3d5f-4540-b66c-74ecca6cb07d.jpg",
+      "RelativePath": "img/producto/0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -35952,7 +35952,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\producto\\903fe4b3-3d5f-4540-b66c-74ecca6cb07d.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\producto\\0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg"
+    },
+    {
+      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\6621e2dc-c49a-4f36-bf1e-1726fdd6d3f7.jpg",
+      "SourceId": "WebCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\",
+      "BasePath": "_content/WebCore",
+      "RelativePath": "img/producto/6621e2dc-c49a-4f36-bf1e-1726fdd6d3f7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\producto\\6621e2dc-c49a-4f36-bf1e-1726fdd6d3f7.jpg"
+    },
+    {
+      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\6988bd3f-c185-4a83-ba7e-fd48fc030015.jpg",
+      "SourceId": "WebCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\",
+      "BasePath": "_content/WebCore",
+      "RelativePath": "img/producto/6988bd3f-c185-4a83-ba7e-fd48fc030015.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\producto\\6988bd3f-c185-4a83-ba7e-fd48fc030015.jpg"
     },
     {
       "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\js\\site.js",
