@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor IHttpContextAccessor;
+@using WebCore.Utilidades;
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -20,7 +24,10 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between flex-row-reverse">
+                   
+                    <partial name="_LoginPartial" />
+
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -52,7 +59,28 @@
                                 <li>
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Producto" asp-action="Index">Producto</a>
                                 </li>
+                                <li>
+                                    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Crear Nuevo Usuario</a>
+                                </li>
                             </ul>
+                        </li>
+                        <li>
+                            @if (IHttpContextAccessor.HttpContext.Session.Get<List<CarroCompras>>(WC.SessionCarroCompras) != null)
+                            {
+                                <a asp-action="Index" asp-controller="Carro" class="nav-link">
+                                    @{
+                                        var conunt = IHttpContextAccessor.HttpContext.Session.Get<List<CarroCompras>>(WC.SessionCarroCompras).Count();
+
+                                    }
+                                    <i class="fas fa-shopping-cart"></i> &nbsp;(@conunt)
+                                </a>
+                            }
+                            else
+                            {
+                                <a href="#" class="nav-link">
+                                    <i class="fas fa-shopping-cart"></i> &nbsp;(0)
+                                </a>
+                            }
                         </li>
                     </ul>
                 </div>

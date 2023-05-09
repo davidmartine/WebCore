@@ -269,3 +269,11 @@ D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\refint\WebCore.dll
 D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\WebCore.pdb
 D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\WebCore.genruntimeconfig.cache
 D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\ref\WebCore.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\WebCore.MvcApplicationPartsAssemblyInfo.cs

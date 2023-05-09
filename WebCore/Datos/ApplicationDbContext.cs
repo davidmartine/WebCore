@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebCore.Models;
 
 namespace WebCore.Datos
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -15,6 +16,8 @@ namespace WebCore.Datos
         public DbSet<TipoAplicacion> TipoAplicacions { get; set; }
 
         public DbSet<Producto> Productos { get; set; }
+
+        public DbSet<UsuarioAplication> UsuarioAplications { get; set; }
 
 
     }
