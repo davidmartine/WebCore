@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebCore.Datos;
 using WebCore.Models;
 
 namespace WebCore.Controllers
 {
+    [Authorize(Roles = WC.AdminRole)]
     public class CategoriaController : Controller
     {
         private readonly ApplicationDbContext dbContext;

@@ -277,3 +277,5 @@ D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.F
 D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Documents\Cursos\Net6\WebCore\WebCore\obj\Debug\net6.0\WebCore.MvcApplicationPartsAssemblyInfo.cs
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\SendGrid.dll
+D:\Documents\Cursos\Net6\WebCore\WebCore\bin\Debug\net6.0\StarkbankEcdsa.dll

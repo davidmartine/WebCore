@@ -8449,6 +8449,10 @@
       "PackagePath": "staticwebassets\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Id": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\patio.jpg",
+      "PackagePath": "staticwebassets\\img\\patio.jpg"
+    },
+    {
       "Id": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg",
       "PackagePath": "staticwebassets\\img\\producto\\0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg"
     },
@@ -8691,6 +8695,10 @@
     {
       "Id": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\templates\\PlantillaOrden.html",
+      "PackagePath": "staticwebassets\\templates\\PlantillaOrden.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebCore.Microsoft.AspNetCore.StaticWebAssets.props",

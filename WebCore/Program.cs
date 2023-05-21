@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using WebCore.Datos;
 using WebCore.Migrations;
+using WebCore.Utilidades;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,9 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
         .AddDefaultTokenProviders().AddDefaultUI()
         .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
+//IMPLENTACION SENDGRID
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using WebCore.Datos;
@@ -7,6 +8,7 @@ using WebCore.Models.ViewModels;
 
 namespace WebCore.Controllers
 {
+    [Authorize(Roles = WC.AdminRole)]
     public class ProductoController : Controller
     {
         private readonly ApplicationDbContext dbContext;

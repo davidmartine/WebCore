@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Build.ObjectModelRemoting;
 using WebCore.Datos;
 using WebCore.Models;
 
 namespace WebCore.Controllers
 {
+    [Authorize(Roles = WC.AdminRole)]
     public class TipoAplicacionController : Controller
     {
         private readonly ApplicationDbContext dbContext;

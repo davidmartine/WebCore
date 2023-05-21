@@ -2,15 +2,15 @@
 {
     public static class WC
     {
-        public static string ImagenRuta = @"\img\producto\";
+        public const string ImagenRuta = @"\img\producto\";
 
 
-        public static string SessionCarroCompras = "SessionCarroCompras";
+        public const string SessionCarroCompras = "SessionCarroCompras";
 
-        public static string AdminRole = "Admin";
-        public static string ClienteRole = "Cliente";
+        public const string AdminRole = "Admin";
+        public const string ClienteRole = "Cliente";
 
-
+        public const string EmailAdmin = "juandaxrxn@gmail.com";
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MOqh6lbOyiZqH4raPxKxIdcizBrNVNAVHYHgC/uwD58=",
+  "Hash": "Sisvde55hQeZH9yTc0OMaPpieZJg3Dfk3nCvcZxizqk=",
   "Source": "WebCore",
   "BasePath": "_content/WebCore",
   "Mode": "Default",
@@ -36958,6 +36958,23 @@
       "OriginalItemSpec": "wwwroot\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
+      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\patio.jpg",
+      "SourceId": "WebCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\",
+      "BasePath": "_content/WebCore",
+      "RelativePath": "img/patio.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\patio.jpg"
+    },
+    {
       "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\img\\producto\\0df1e4d7-5a6a-459f-a7c2-a7ace871395c.jpg",
       "SourceId": "WebCore",
       "SourceType": "Discovered",
@@ -37993,6 +38010,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\templates\\PlantillaOrden.html",
+      "SourceId": "WebCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\Cursos\\Net6\\WebCore\\WebCore\\wwwroot\\",
+      "BasePath": "_content/WebCore",
+      "RelativePath": "templates/PlantillaOrden.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\PlantillaOrden.html"
     }
   ]
 }
